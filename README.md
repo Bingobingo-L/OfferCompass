@@ -1,5 +1,7 @@
 # OfferCompass
 
+New graduate / startup vs big company offer decision.
+
 一个用于帮助应届生和早期职业候选人比较 offer 的 Codex Skill，尤其适合判断：
 
 - 初创公司 vs 大厂
