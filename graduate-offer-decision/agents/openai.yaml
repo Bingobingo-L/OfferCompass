@@ -1,8 +1,0 @@
-interface:
-  display_name: "Graduate Offer Decision"
-  short_description: "Compare startup and big-company offers for new grads"
-  brand_color: "#2563EB"
-  default_prompt: "Use $graduate-offer-decision to compare my new-grad offers and recommend which one to choose."
-
-policy:
-  allow_implicit_invocation: true

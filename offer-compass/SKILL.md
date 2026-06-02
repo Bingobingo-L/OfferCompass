@@ -1,11 +1,11 @@
 ---
-name: graduate-offer-decision
+name: offer-compass
 description: Use when a new graduate or early-career candidate needs to choose between startup, big company, mature company, or multiple job offers, especially in AI-era career contexts. This skill compares offers using minimal user input, active company and role research, personal risk-budget assessment, compensation certainty analysis, downside scenarios, and final recommendation ranking.
 metadata:
-  short-description: Help graduates choose between startup and big-company offers
+  short-description: Navigate startup and big-company offer decisions
 ---
 
-# Graduate Offer Decision
+# OfferCompass
 
 ## Goal
 

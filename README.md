@@ -1,4 +1,4 @@
-# Graduate Offer Decision Skill
+# OfferCompass
 
 一个用于帮助应届生和早期职业候选人比较 offer 的 Codex Skill，尤其适合判断：
 
@@ -48,18 +48,18 @@ AI 负责搜索用户不容易查全的公开信息。
 
 ## 安装
 
-把 `graduate-offer-decision` 目录复制到你的 Codex skills 目录：
+把 `offer-compass` 目录复制到你的 Codex skills 目录：
 
 ```bash
-cp -R graduate-offer-decision ~/.codex/skills/
+cp -R offer-compass ~/.codex/skills/
 ```
 
-然后在 Codex 中通过 `$graduate-offer-decision` 调用。
+然后在 Codex 中通过 `$offer-compass` 调用。
 
 ## 使用示例
 
 ```text
-$graduate-offer-decision 帮我比较这两个 offer：
+$offer-compass 帮我比较这两个 offer：
 
 背景：杭州电子科技大学计算机硕士，应届。
 
@@ -75,7 +75,7 @@ Offer 2：
 ## 目录结构
 
 ```text
-graduate-offer-decision/
+offer-compass/
 ├── SKILL.md
 ├── agents/
 │   └── openai.yaml
@@ -101,18 +101,17 @@ graduate-offer-decision/
 生成搜索 query：
 
 ```bash
-python3 graduate-offer-decision/scripts/generate_queries.py "生数科技" --role "AI产品经理"
+python3 offer-compass/scripts/generate_queries.py "生数科技" --role "AI产品经理"
 ```
 
 来源置信度分类：
 
 ```bash
-python3 graduate-offer-decision/scripts/classify_sources.py https://www.sec.gov/edgar/search/
+python3 offer-compass/scripts/classify_sources.py https://www.sec.gov/edgar/search/
 ```
 
 生成 research pack 骨架：
 
 ```bash
-python3 graduate-offer-decision/scripts/build_research_pack.py "生数科技" --role "AI产品经理" --compensation "90w+20w股权"
+python3 offer-compass/scripts/build_research_pack.py "生数科技" --role "AI产品经理" --compensation "90w+20w股权"
 ```
-
